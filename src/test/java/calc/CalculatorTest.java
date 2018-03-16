@@ -34,7 +34,7 @@ public class CalculatorTest {
 	@Test
 	public void testDiv() {
 		try {
-			assertEquals(1.0, calc.div(2,2),0);
+			assertEquals(1, calc.div(2,2));
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

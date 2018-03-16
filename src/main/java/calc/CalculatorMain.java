@@ -25,6 +25,16 @@ try{
 	 }
  
  }
+ public int div(int j, int k)throws Exception{
+	 try{
+	 	 int rem=j/k;
+	 	 return rem;
+	  }
+	 	 catch(Exception e) {
+	 		 throw e;
+	 	 }
+	  
+	  }
  public double sqr(double number) {
 	 double squareRoot = Math.sqrt(number);
 	 return Math.round(squareRoot);
