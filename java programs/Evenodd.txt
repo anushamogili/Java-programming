@@ -1,0 +1,15 @@
+import java.awt.*;
+public class Evenodd{
+public static void main(String[] args){
+int i;
+for(i=0; i<30; i++){
+int sum = i%2;
+if(sum == 0)
+{
+System.out.println("even no %d",sum);
+}
+else{
+System.out.println("even no %d",sum);
+}
+}
+}
